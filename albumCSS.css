@@ -1,5 +1,21 @@
 body {
     background-color: white;
-    font-family: serif;
+    font-family: sans-serif;
     text-decoration: black;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#bandmembers {
+    font-style: italic;
+}
+
+#albumimage {
+    background-image: url("images/BeastieBoysHelloNasty.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
