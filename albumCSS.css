@@ -19,3 +19,23 @@ h2 {
     background-position: center;
 
 }
+
+a:link {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    background-color: yellow;
+    text-decoration: underline;
+    
+}
+
+table {
+    background-color: #ffcc80;
+}
+
+table td {
+    font-style: italic;
+}
+
