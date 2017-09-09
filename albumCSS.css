@@ -13,10 +13,12 @@ h2 {
     font-style: italic;
 }
 
-#albumimage {
+#albumimage.img-circle {
     background-image: url("images/BeastieBoysHelloNasty.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    height: 300px;
+    width: 300px;
 
 }
 
