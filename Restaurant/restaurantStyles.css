@@ -4,6 +4,7 @@ h1 {
     text-align: center;
 }
 
+
 form label {
     font-weight: bold;
 }
@@ -17,6 +18,14 @@ form label {
     width: 100%;
 }
 
+.carousel-inner > .item > img {
+  width:150px;
+  height:100px;
+}
+
+.carousel-caption {
+    color: black;
+}
 
 
 thead {
