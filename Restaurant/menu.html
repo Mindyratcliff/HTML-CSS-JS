@@ -3,95 +3,91 @@
 <head>
 <title>Menu</title>
 <link rel="stylesheet" type="text/css" href="restaurantStyles.css"/>
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
-    table{ 
-        text-align: center;
+    table { 
         font-family: 'Times New Roman', Times, serif;
         color:black;
         background-color: blanchedalmond;
+        max-width: 5000px;
+        
     }
 </style>
 </head>
 <body>
 <h1>Puddington's House of Pudding</h1>
-    <nav>
-        <a href="index.html">Home</a> <a href="menu.html">Menu</a> <a href="contact.html">Contact Us</a>
-    </nav>
+<nav>    
+<ul class="nav nav-tabs">
+<li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li><li class="active"><a href="menu.html">Menu</a></li><li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>  
+<div id="menu">  
 <table>
     <caption>A Sample of Our Favorites</caption>
     <thead>
     <th></th>
-    <th><i><u>Savory Puddings</u></i></th>
+    <th class="text-center"><i><u>Savory Puddings</u></i></th>
     <th></th>
 </thead>
     <thead>
         <tr>
-        <th>Sizzling Steak and Kidney Pudding</th>
-        <th>Oliver's Pease Pudding</th>
-        <th>Croque Monsieur Bread Pudding</th>
+        <th class="text-center">Sizzling Steak and Kidney Pudding</th>
+        <th class="text-center">Oliver's Pease Pudding</th>
+        <th class="text-center">Croque Monsieur Bread Pudding</th>
         </tr>
-    </br>
     </thead>
     <tr>
-        <td>Made from Black Angus steak and fine pork kidneys, this succulent dish is accentuated with organic rosemary and spicy, earthy nutmeg.</td>
+        <td>Made from Black Angus steak and fine pork kidneys, this succulent dish is accentuated with organic rosemary.</td>
         <td>This one is like none other! Made with split peas and hearty bacon, this dish will warm you up!</td>
         <td>Accentuated with garlic and Dijon mustard, this bread pudding is no side dish, baby!</td>
     </tr> 
-    </br>
     <tr>
         <td>$16.95</td>
         <td>$9.95 <i>add Honeybaked Ham for additional $3</i></td>
         <td>$12.95</td>
     </tr>
-
-</br>
 <thead>
     <th></th>
-    <th><i><u>Sweet Puddings</u></i></th>
+    <th class="text-center"><i><u>Sweet Puddings</u></i></th>
     <th></th>
 </thead>
     <thead>
         <tr>
-        <th>Our Signature Voluptuous Volcano Pudding</th>
-        <th>Watalappam</th>
-        <th>Oreo's Original Mix</th>
+        <th class="text-center">Our Signature Voluptuous Volcano Pudding</th>
+        <th class="text-center">Watalappam</th>
+        <th class="text-center">Oreo's Original Mix</th>
         </tr>
     </thead>
-    </br>
     <tr>
         <td>A must try! Made with imported volcanic ash and spicy cayenne, this dish has won over 50 awards!</td>
         <td>A sweet blend of coconut milk and cashews, this Sri Lankan dish is a favorite of food critic Anthony Bourdain</td>
         <td>Everyone's favorite cookie is mixed in with dark chocolate pudding and fresh cream</td>
     </tr>
-    </br>
     <tr>
     <td>$19.95</td>
     <td>$8.95</td>
     <td>$9.95</td>
     </tr>
-</br>
-<tr>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
 <thead>
     <th></th>
-    <th><i><u>Beverages</u></i></th>
+    <th class="text-center"><i><u>Beverages</u></i></th>
     <th></th>
 </thead>
+
 <thead>
-    <th>Lemonade</th>
-    <th>Root Beer</th>
-    <th>Chocolate Milk</th>
+    <th class="text-center">Lemonade</th>
+    <th class="text-center">Root Beer</th>
+    <th class="text-center">Chocolate Milk</th>
 </thead>
-</br>
 <tr>
     <td>$2.25</td>
     <td>$2.50</td>
     <td>$1.25</td>
 </tr>
 </table>
+</div>
 </br>
 <div id="footer">
        
